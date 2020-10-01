@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>welcome page</title>
 </head>
 <body>
 	SpringBoot web app JSP file

@@ -12,6 +12,6 @@ Run "gradle clean eclipse" if you face any dependencies issues with tomcat-jaspe
 	
 	iii) http://localhost:8080/req-param-hello?name=Gradle
 	
-	i) http://localhost:8080/mvc-request?input-req=MVC 
+	iv) http://localhost:8080/mvc-request?input_req=MVC
 	
   

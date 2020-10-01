@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>front</title>
 </head>
 <body>
 
-	welcome Spring {input-req} 
+	welcome Spring ${input_req} 
 
 </body>
 </html>

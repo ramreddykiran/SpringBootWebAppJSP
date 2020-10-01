@@ -9,13 +9,16 @@ import org.springframework.web.servlet.ModelAndView;
 public class MvcController {
 	
 	@RequestMapping("mvc-request")
-	public ModelAndView mvcRequest(@RequestParam("input-req") String inputRequest) {
+	//public ModelAndView mvcRequest(@RequestParam("input-req") String inputRequest) {
+	// input-req is an invalid parameter. This should follow Java variable rules
+	public ModelAndView mvcRequest(@RequestParam("input_req") String inputRequest) {
+
 		System.out.println("inside MvcController : mvcRequest");
 		System.out.println("input = "+inputRequest);
 		
 		ModelAndView mv = new ModelAndView();
 		
-		mv.addObject("input-req", inputRequest);
+		mv.addObject("input_req", inputRequest);
 		mv.setViewName("front");
 		return mv;
 		
